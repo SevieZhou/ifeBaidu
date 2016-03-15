@@ -70,6 +70,10 @@ img.logo {
     float: left;
 }
 
+#choose p {
+    text-indent: 10em;
+}
+
 h3 {
     color: darkgray;
     padding: -20px;
