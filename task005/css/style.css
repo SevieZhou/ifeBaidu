@@ -1,0 +1,151 @@
+#header {
+    background-color: dimgrey;
+    height: 70px;
+    margin: -16px;
+}
+
+#bottom {
+    background-color: black;
+    height: 70px;
+    padding: 20px;
+    margin: -16px;
+}
+
+p.copyright {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+p.gray {
+    color: #999999;
+    font-size: small;
+    text-align: center;
+}
+
+img.logo {
+    float: left;
+    height: 70px;
+    width: 70px;
+}
+
+#nav li {
+    float: right;
+    display: inline;
+    list-style: none;
+    margin: 30px;
+    line-height: 10px;
+    text-decoration: none;
+}
+
+#nav ul li a:link, ul li a:visited {
+    text-decoration: none;
+    color: aliceblue;
+    padding: 10px 0px 10px 0px;
+}
+
+#nav ul li a:hover {
+    text-decoration: none;
+    color: yellow;
+    padding: 10px 0px 10px 0px;
+}
+
+#passage-body {
+    background-color: darkgray;
+    margin: 16px auto;
+    padding: 20px;
+    margin-right: -8px;
+    margin-left: -8px;
+}
+
+#main-body {
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-bottom: solid 1px gray;
+    border-right: solid 1px gray;
+    margin-top: 20px;
+    width: 60%;
+
+}
+
+#main-body-left {
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-bottom: solid 1px gray;
+    border-right: solid 1px gray;
+    width: 30%;
+    float: right;
+    display: block;
+    margin-top: -865px;
+}
+
+#main-body.bot {
+    column-span: 3;
+    background-color: red;
+}
+
+#main-body.hr {
+    height: 50px;
+    width: 1px;
+    color: gray;
+    float: left;
+}
+
+
+h3 {
+    color: darkgray;
+    padding: -20px;
+}
+
+h5 {
+    color: gray;
+    padding: 0px;
+}
+
+p {
+    line-height: 30px;
+}
+
+ol {
+    list-style-type: decimal;
+    line-height: 30px;
+}
+
+table {
+    border: solid 1px gray;
+    width: 100%;
+}
+
+table th {
+    border: solid 1px gray;
+    color: #FFFFFF;
+    background-color: dimgray;
+}
+
+table td {
+    border: solid 1px gray;
+    text-align: center;
+}
+
+table td a {
+    text-align: center;
+    text-decoration: none;
+}
+
+table td a:hover {
+    text-align: center;
+    text-decoration: none;
+    color: red;
+}
+
+#inp input[type = "submit"]{
+    width: 100%;
+    background: cornflowerblue;
+    border: none;
+    padding: 10px 25px 10px 25px;
+    color: #FFF;
+    box-shadow: 1px 1px 5px #000000;
+}
+
+img {
+    width: 50%;
+}
