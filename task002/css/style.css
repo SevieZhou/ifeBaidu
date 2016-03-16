@@ -19,6 +19,7 @@ p.copyright {
 img.logo {
     float: left;
     height: 70px;
+    width: 70px;
 }
 
 #nav li {
@@ -128,4 +129,8 @@ table td a:hover {
     padding: 10px 25px 10px 25px;
     color: #FFF;
     box-shadow: 1px 1px 5px #000000;
+}
+
+img {
+    width: 900px;
 }
