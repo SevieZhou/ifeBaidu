@@ -1,0 +1,44 @@
+body {
+    background-color: #FFFFFF;
+    padding: 20px;
+    display: flex;
+}
+
+.object {
+    background: #9E9E9E;
+    color: white;
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.object .circleleft {
+    width: 100px;
+    height: 100px;
+    background-color: #FC0;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    float: left;
+    margin: -19px;
+    transform: translate(-50%, -50%);
+}
+
+.circleright {
+    width: 100px;
+    height: 100px;
+    background-color: #FC0;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    float: right;
+    margin-top: 30%;
+    margin-right: -19px;
+    transform: translate(50%, 50%);
+    position: relative;
+}
